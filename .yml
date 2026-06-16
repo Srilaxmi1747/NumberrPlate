@@ -54,21 +54,21 @@ jobs:
  
     - name: Clean
 
-      run: dotnet clean NumberPlate.csproj
+      run: dotnet clean NumberrPlate.csproj
  
     - name: Restore
 
-      run: dotnet restore NumberPlate.csproj
+      run: dotnet restore NumberrPlate.csproj
  
     - name: Build Android
 
-      run: dotnet build NumberPlate.csproj -f net9.0-android -c Release
+      run: dotnet build NumberrPlate.csproj -f net9.0-android -c Release
  
     - name: Publish Signed APK
 
       run: >
 
-        dotnet publish NumberPlate.csproj
+        dotnet publish NumberrPlate.csproj
 
         -f net9.0-android
 
